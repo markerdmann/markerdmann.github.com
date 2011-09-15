@@ -2,10 +2,10 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://markerdmann.com
+title: Mark Erdmann
+subtitle: Just a place to jot down my nerdthoughts
+author: Mark Erdmann
 simple_search: http://google.com/search
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
@@ -49,13 +49,13 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/twitter.ht
 # ----------------------- #
 
 # Github repositories
-github_user:
+github_user: markerdmann
 github_repo_count: 0
 github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user:
+twitter_user: markerdmann
 twitter_tweet_count: 4
 twitter_show_replies: false
 twitter_follow_button: true
@@ -67,7 +67,7 @@ google_plus_one: true
 google_plus_one_size: medium
 
 # Pinboard
-pinboard_user:
+pinboard_user: markerdmann
 pinboard_count: 3
 
 # Delicious
