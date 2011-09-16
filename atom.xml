@@ -4,13 +4,25 @@
   <title>Mark Erdmann</title>
   <link href="http://markerdmann.com/atom.xml" rel="self"/>
   <link href="http://markerdmann.com/"/>
-  <updated>2011-09-16T14:14:51-07:00</updated>
+  <updated>2011-09-16T14:38:10-07:00</updated>
   <id>http://markerdmann.com/</id>
   <author>
     <name>Mark Erdmann</name>
     
   </author>
 
+  
+  <entry>
+    <title>Vim - Fit Text Into 80 Columns</title>
+    <link href="http://markerdmann.com/blog/2011/09/16/use-vim-to-fit-text-into-80-columns/"/>
+    <updated>2011-09-16T14:24:00-07:00</updated>
+    <id>http://markerdmann.com/blog/2011/09/16/use-vim-to-fit-text-into-80-columns</id>
+    <content type="html">&lt;p&gt;I often use this trick when I&amp;#8217;m writing long emails and need to do some editing
+that pushes a few lines too far out. Just copy the text into Vim and move your
+cursor to the beginning (&lt;code&gt;gg&lt;/code&gt; in command mode). Make sure that textwidth is set
+to 80 (&lt;code&gt;:set textwidth=80&lt;/code&gt;) and then type &lt;code&gt;gqG&lt;/code&gt;.&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>Git - How to Remove the Top Commit</title>

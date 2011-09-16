@@ -5,8 +5,10 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Mark Erdmann</title>
+  <title>Category: Vim - Mark Erdmann</title>
   <meta name="author" content="Mark Erdmann">
+  
+    <meta name="description" content="Category: Vim"/>
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -16,7 +18,7 @@
 
   
 
-  <link rel="canonical" href="http://markerdmann.com/index.html"/>
+  <link rel="canonical" href="http://markerdmann.comblog/categories/vim/index.html"/>
   <link href="/favicon.png" rel="shortcut icon" />
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/stylesheets/tweaks.css" media="screen, projection" rel="stylesheet" type="text/css">
@@ -58,105 +60,40 @@
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
-
-
-
-  <article>
-    
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2011/09/16/use-vim-to-fit-text-into-80-columns/">Vim - Fit Text Into 80 Columns</a></h1>
-    
-    
-      <p class="meta">
-
-
-
-
-
+      <div>
+<article>
   
-
-
-
-<time datetime="2011-09-16T14:24:00-07:00" pubdate  data-updated="true" >Sep 16<span>th</span>, 2011</time></p>
+  <header>
+    <h1 class="entry-title">Category: Vim</h1>
     
   </header>
-
-
-  <div class="entry-content"><p>I often use this trick when I&#8217;m writing long emails and need to do some editing
-that pushes a few lines too far out. Just copy the text into Vim and move your
-cursor to the beginning (<code>gg</code> in command mode). Make sure that textwidth is set
-to 80 (<code>:set textwidth=80</code>) and then type <code>gqG</code>.</p>
-</div>
   
-  
-
-
-  </article>
-
-
-  <article>
-    
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2011/09/15/git-remove-top-commit/">Git - How to Remove the Top Commit</a></h1>
-    
-    
-      <p class="meta">
-
-
+  <div id="blog-archives" class="category">
 
 
 
   
+  <h2>2011</h2>
+
+<article>
+  
+<h1><a href="/blog/2011/09/16/use-vim-to-fit-text-into-80-columns/">Vim - Fit Text Into 80 Columns</a></h1>
+<time datetime="2011-09-16T14:24:00-07:00" pubdate><span class='month'>Sep</span> <span class='day'>16</span> <span class='year'>2011</span></time>
+
+<footer>
+  <span class="categories">posted in <a class='category' href='/blog/categories/vim/'>Vim</a></span>
+</footer>
 
 
-
-<time datetime="2011-09-15T18:44:00-07:00" pubdate  data-updated="true" >Sep 15<span>th</span>, 2011</time></p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Just run:</p>
-
-<figure role=code><div class="highlight"><table cellpadding="0" cellspacing="0"><tr><td class="gutter"><pre class="line-numbers"><span class='line'>1</span>
-</pre></td><td class='code' width='100%'><pre><code class=''><div class='line'>git reset --hard HEAD~1</div></code></pre></td></tr></table></div></figure>
-
-
-<p>If you haven&#8217;t pushed, that&#8217;s all you need to do. If you <em>have</em> pushed, and
-you&#8217;re <em>sure</em> that no one else has pulled your changes, you could push again
-with &#8216;-f&#8217; (force push):</p>
-
-<figure role=code><div class="highlight"><table cellpadding="0" cellspacing="0"><tr><td class="gutter"><pre class="line-numbers"><span class='line'>1</span>
-</pre></td><td class='code' width='100%'><pre><code class=''><div class='line'>git push -f origin master</div></code></pre></td></tr></table></div></figure>
-
-
-<p>If, on the other hand, there&#8217;s a chance that someone has already pulled your
-changes, you&#8217;ll want to use <code>revert</code> instead.  This creates a new commit that
-backs out your bad commit:</p>
-
-<figure role=code><div class="highlight"><table cellpadding="0" cellspacing="0"><tr><td class="gutter"><pre class="line-numbers"><span class='line'>1</span>
-<span class='line'>2</span>
-</pre></td><td class='code' width='100%'><pre><code class=''><div class='line'>git revert HEAD
-</div><div class='line'>git push origin master</div></code></pre></td></tr></table></div></figure>
+</article>
 
 </div>
+
   
-  
-
-
-  </article>
-
-<nav role="pagination">
-  <div>
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
-</nav>
+</article>
 
 </div>
+
 <aside role=sidebar>
   
     <section>
@@ -177,7 +114,7 @@ backs out your bad commit:</p>
 <section>
   <h1>Github Repos</h1>
   <ul id="gh_repos">
-    <li class="loading">Status updating&#8230;</li>
+    <li class="loading">Status updating...</li>
   </ul>
   
   <a href="https://github.com/markerdmann">@markerdmann</a> on Github
@@ -207,7 +144,7 @@ backs out your bad commit:</p>
 <section>
   <h1>Latest Tweets</h1>
   <ul id="tweets">
-    <li class="loading">Status updating&#8230;</li>
+    <li class="loading">Status updating...</li>
   </ul>
   <script type="text/javascript">
     $.domReady(function(){
@@ -224,7 +161,7 @@ backs out your bad commit:</p>
 
 <section>
   <h1>My Pinboard</h1>
-  <ul id="pinboard_linkroll">Fetching linkroll&#8230;</ul>
+  <ul id="pinboard_linkroll">Fetching linkroll...</ul>
   <p><a href="http://pinboard.in/u:markerdmann">My Pinboard Bookmarks &raquo;</a></p>
 </section>
 <script type="text/javascript">
@@ -243,6 +180,7 @@ backs out your bad commit:</p>
 
   
 </aside>
+
 
     </div>
   </div>
