@@ -4,12 +4,43 @@
   <title>Mark Erdmann</title>
   <link href="http://markerdmann.com/atom.xml" rel="self"/>
   <link href="http://markerdmann.com/"/>
-  <updated>2011-09-15T18:38:09-07:00</updated>
+  <updated>2011-09-15T18:57:02-07:00</updated>
   <id>http://markerdmann.com/</id>
   <author>
     <name>Mark Erdmann</name>
     
   </author>
 
+  
+  <entry>
+    <title>Git - How to Remove the Top Commit</title>
+    <link href="http://markerdmann.com/blog/2011/09/15/git-remove-top-commit/"/>
+    <updated>2011-09-15T18:44:00-07:00</updated>
+    <id>http://markerdmann.com/blog/2011/09/15/git-remove-top-commit</id>
+    <content type="html">&lt;p&gt;Just run:&lt;/p&gt;
+
+&lt;figure role=code&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre class=&quot;line-numbers&quot;&gt;&lt;span class=&#8217;line&#8217;&gt;1&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#8217;code&#8217; width=&#8217;100%&#8217;&gt;&lt;pre&gt;&lt;code class=&#8221;&gt;&lt;div class=&#8217;line&#8217;&gt;git reset &#8211;hard HEAD~1&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;/figure&gt;
+
+
+&lt;p&gt;If you haven&amp;#8217;t pushed, that&amp;#8217;s all you need to do. If you &lt;em&gt;have&lt;/em&gt; pushed, and
+you&amp;#8217;re &lt;em&gt;sure&lt;/em&gt; that no one else has pulled your changes, you could push again
+with &amp;#8216;-f&amp;#8217; (force push):&lt;/p&gt;
+
+&lt;figure role=code&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre class=&quot;line-numbers&quot;&gt;&lt;span class=&#8217;line&#8217;&gt;1&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#8217;code&#8217; width=&#8217;100%&#8217;&gt;&lt;pre&gt;&lt;code class=&#8221;&gt;&lt;div class=&#8217;line&#8217;&gt;git push -f origin master&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;/figure&gt;
+
+
+&lt;p&gt;If, on the other hand, there&amp;#8217;s a chance that someone has already pulled your
+changes, you&amp;#8217;ll want to use &lt;code&gt;revert&lt;/code&gt; instead.  This creates a new commit that
+backs out your bad commit:&lt;/p&gt;
+
+&lt;figure role=code&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre class=&quot;line-numbers&quot;&gt;&lt;span class=&#8217;line&#8217;&gt;1&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;2&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#8217;code&#8217; width=&#8217;100%&#8217;&gt;&lt;pre&gt;&lt;code class=&#8221;&gt;&lt;div class=&#8217;line&#8217;&gt;git revert HEAD
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;git push origin master&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;/figure&gt;
+
+</content>
+  </entry>
   
 </feed>
