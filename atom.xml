@@ -4,7 +4,7 @@
   <title>Mark Erdmann</title>
   <link href="http://markerdmann.com/atom.xml" rel="self"/>
   <link href="http://markerdmann.com/"/>
-  <updated>2011-09-24T09:52:31-07:00</updated>
+  <updated>2011-09-24T10:14:39-07:00</updated>
   <id>http://markerdmann.com/</id>
   <author>
     <name>Mark Erdmann</name>
@@ -141,6 +141,14 @@ here is the script itself, along with a few comments to make it more readable:&l
 &lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;    &lt;span class=&quot;nb&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;
 &lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
 &lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;/figure&gt;
+
+
+&lt;p&gt;And these are the images (as a video slideshow):&lt;/p&gt;
+
+&lt;iframe src=&quot;http://player.vimeo.com/video/29510470?title=0&amp;amp;byline=0&amp;amp;portrait=0&quot; width=&quot;400&quot; height=&quot;300&quot; frameborder=&quot;0&quot; webkitAllowFullScreen allowFullScreen&gt;&lt;/iframe&gt;
+
+
+&lt;p&gt;&lt;a href=&quot;http://vimeo.com/29510470&quot;&gt;Jonathan Hardesty&amp;#8217;s 9 Year Journey From Novice To Master Painter&lt;/a&gt; from &lt;a href=&quot;http://vimeo.com/user8638991&quot;&gt;Mark Erdmann&lt;/a&gt; on &lt;a href=&quot;http://vimeo.com&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
 
 </content>
   </entry>
