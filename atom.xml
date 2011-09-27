@@ -4,7 +4,7 @@
   <title>Mark Erdmann</title>
   <link href="http://markerdmann.com/atom.xml" rel="self"/>
   <link href="http://markerdmann.com/"/>
-  <updated>2011-09-26T14:38:01-07:00</updated>
+  <updated>2011-09-27T00:11:55-07:00</updated>
   <id>http://markerdmann.com/</id>
   <author>
     <name>Mark Erdmann</name>
@@ -17,10 +17,10 @@
     <link href="http://markerdmann.com/blog/2011/09/24/image-scraping-example-using-the-ruby-mechanize-library/"/>
     <updated>2011-09-24T09:30:00-07:00</updated>
     <id>http://markerdmann.com/blog/2011/09/24/image-scraping-example-using-the-ruby-mechanize-library</id>
-    <content type="html">&lt;p&gt;Yesterday, on Hacker News, sadiq posted a link to &lt;a href=&quot;&quot; title=&quot;http://www.conceptart.org/forums/showthread.php?t=870&quot;&gt;this amazing forum thread on
+    <content type="html">&lt;p&gt;Yesterday, on Hacker News, sadiq posted a link to &lt;a href=&quot;http://www.conceptart.org/forums/showthread.php?t=870&quot;&gt;this amazing forum thread on
 conceptart.org&lt;/a&gt;.  You
 can also read the Hacker News thread
-&lt;a href=&quot;&quot; title=&quot;http://news.ycombinator.com/item?id=3031684&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;a href=&quot;http://news.ycombinator.com/item?id=3031684&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;The server seemed to be under a lot of load, so I decided it would be faster
 to write a script that would scrape the images for me. Per jimmyjim&amp;#8217;s request,
